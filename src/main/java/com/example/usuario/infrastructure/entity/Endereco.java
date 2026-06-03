@@ -22,7 +22,7 @@ public class Endereco {
     private String rua;
 
     @Column(name = "numero")
-    private String numero;
+    private Long numero;
 
     @Column(name = "complemento", length = 10)
     private String complemento;
